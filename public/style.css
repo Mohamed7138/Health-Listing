@@ -26,10 +26,8 @@
   background-image: url("/assets/dark_wood.png");
 }
 
-/*HOSPITALS PAGES*/
-/* .hospitals {
-  background-image: url("/assets/hospital.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/*DOCTORS PAGES*/
+/* .doc-img {
+  object-fit: cover;
+  width: 50px;
 } */
