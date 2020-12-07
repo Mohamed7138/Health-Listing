@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/cssoutput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!----------------COMPONENT SCRIPTS---------------->
+    <script src="./components/header.js"></script>
+    <script src="./components/footer.js"></script>
+
+    <title>Home</title>
+</head>
+<body class="font-sans">
+>
+  <header-component></header-component>
+  
+
+<!--MAIN-->
+<div class="flex flex-col justify-center">
+<div class="h-96 bg-gray-900 hero-img ">
+<h3 class="text-white text-5xl ml-36 pt-8 font-semibold mb-4">Emergency?</h3>
+<h1 class=" text-7xl ml-36 mb-4 font-bold text-yellow-500 ">Find The Nearest</h1>
+<h3 class="text-white text-5xl ml-36 font-semibold mb-4">Medical Facility</h3>
+<button class="border-2 border-yellow-500 rounded-xl px-6 py-2 ml-36 mt-6 text-white bg-yellow-500">Doctors</button>
+<button class="border-2 border-yellow-500 rounded-xl px-6 py-2 ml-2 mt-6 text-white ">Doctors</button>
+</div>
+<!--SMALL SEARCH FORM- HERO -->
+<div class="flex mx-32 -mt-10 h-40 border rounded-md overflow-hidden shadow-xl bg-gray-50 ">
+    <div class="flex items-center mr-8 mt-8 w-1/2  ">
+        <input type="text" placeholder="search Doctors, Hospitals etc" class="border-2 p-4 mr-8 ml-4 ">
+        <select name="places" id="" placeholder="search places" class="border-2 p-4  mr-4 w-1/2">
+        <option value=""> Garowe</option>
+        <option value=""> Garowe</option>
+        <option value=""> Garowe</option>
+    </select>
+    <i class="fas fa-arrow-circle-right fa-3x ml-8 cursor-pointer"></i>
+    </div>
+
+    <div class=" img-doc w-1/2 bg-green-800 justify-center ">
+       <h2 class="  ml-72 mt-2 text-white text-2xl font-semibold">Are You a Docotor</h2>
+       <h3 class="ml-72 mt-2  text-white text-3xl font-bold">Joint Our Team</h3>
+       <a href="" class="bg-yellow-500 shadow-xl rounded-xl px-4 py-2 ml-80 mt-4 inline-block text-black font-sans text-md ">As a Doctor</a>
+    </div>
+   
+    </div>
+
+    <div class="flex my-16 shadow-sm mx-2 ">
+      <div class=" w-1/2 border-r-4 border-dotted  ">
+        <h2 class="text-black text-4xl pt-8 pb-2 font-semibold mx-20">Brign Care To Your</h2>
+        <h3 class=" text-4xl   font-bold mx-20 pb-10 text-yellow-500"> House With One Click</h3>
+        <p class="text-black  font-sans text-xl ml-20 pr-8">Lorem ipsum dolor amet consectetur adipisicing elitiuim sete eiusmod tempor incididunt ut labore etnalom dolore magn aiqua udiminimate veniam quis norud exercitation ullamco laboris nisi aliquip commodo consequat duis aute irure dolor in reprehenderit.</p>
+        <button class="px-10 py-4 mx-52 mt-10  rounded-xl bg-yellow-500">Contact</button>
+      </div>
+      <div>
+                <img src="/assets/nurse.png" alt="" >
+                
+      </div>
+    </div>
+
+    <div class="flex flex-col place-items-center mx-20 my-12 bg-gray-50 p-10 ">
+      <h4 class="text-xl font-semibold font-sans">We Made it Simple</h4>
+      <h2 class="text-5xl text-gray-900 font-bold my-4 ">How it <span class="text-yellow-500"> Works</span></h2>
+      <p class="px-12">Lorem ipsum dolor amet consectetur adipisicing elitiuim sete eiusmod tempor incididunt ut labore etnalom dolore magn aiqua udiminimate veniam quis norud exercitation ullamco laboris nisi aliquip commodo consequat duis aute irure dolor in reprehenderit</p>
+      
+      <div class="flex">
+        <div class="flex flex-col place-items-center mr-28 mt-8">
+          <div class="rounded-full border-2 p-12  inline-block bg-gray-900">
+            <img src="/assets/online-assistance (1).png" alt="" class="h-20">
+          </div>
+          <h3 class="text-md text-green-900 mt-2">1. Search Best Online</h3>
+          <h1 class="text-3xl text-gray-900 font-bold">Profossionals</h1>
+        </div>
+
+        <div class="flex flex-col place-items-center mr-28 mt-8 ">
+          <div class="rounded-full border-2 p-12  inline-block bg-gray-900">
+            <img src="/assets/appointment.png" alt="" class="h-20">
+          </div>
+          <h3 class="text-md text-green-900 mt-2">2. Get Instant</h3>
+          <h1 class="text-3xl text-gray-900 font-bold">Appointment</h1>
+        </div>
+
+        <div class="flex flex-col place-items-center mr-28 mt-8 ">
+          <div class="rounded-full border-2 p-12  inline-block bg-gray-900">
+            <img src="/assets/video-call.png" alt="" class="h-20">
+          </div>
+          <h3 class="text-md text-green-900 mt-2">3. Mett Your Prefered</h3>
+          <h1 class="text-3xl text-gray-900 font-bold">Doctor</h1>
+        </div>
+
+      </div>
+         
+    </div>
+
+    <div class="flex flex-col place-items-center mt-32" >
+      <h5 class="text-xl font-semibold font-sans">Read Top Class Blogs</h5>
+      <h1 class="text-5xl text-gray-900 font-bold my-4">Latest <span class="text-yellow-500">Articales</span></h1>
+           <div class=" my-8 flex justify-center ">
+
+          <div class="w-1/4   border mx-4 hover:shadow-2xl transform hover:scale-105  motion-reduce:transform-none ">
+            <img src="/assets/microscope-3184432_1280.jpg" alt="">
+            <div class="py-4 px-2">
+              <h4 class="py-2 pl-4 text-blue-700 text-md">Diagnostics</h4>
+              <h1 class="text-grey-900 text-xl font-semibold mt-4 px-4 cursor-pointer hover:text-yellow-500 ">Know More About Preventing Diseases</h1>
+              <h4 class="py-2 pl-4 text-gray-900 text-md mt-2"><i class="icon-art fas fa-calendar-alt mr-2"></i>Jan/08/2020</h4>
+              <!-- <button class="border-2 border-yellow-500 rounded-xl  py-2 px-6 ml-24 my-8 text-grey-50 bg-yellow-500">Read More</button> -->
+            </div>
+            
+          </div>
+
+          <div class="w-1/4 border mx-4 hover:shadow-2xl transform hover:scale-105  motion-reduce:transform-none ">
+            <img src="/assets/Fruit.jpg" alt="">
+            <div class="py-4 px-2">
+              <h4 class="py-2 pl-4 text-blue-700 text-md">Diagnostics</h4>
+              <h1 class="text-grey-900 text-xl font-semibold mt-4  px-4 cursor-pointer hover:text-yellow-500 ">fruit Gives Body Nice Looking Shape</h1>
+              <h4 class="py-2 pl-4 text-gray-900 text-md mt-2"><i class="icon-art fas fa-calendar-alt mr-2"></i>Jan/08/2020</h4>
+              <!-- <button class="border-2 border-yellow-500 rounded-xl  py-2 px-6 ml-24 my-8 text-grey-50 bg-yellow-500">Read More</button> -->
+            </div>
+          </div>
+
+          <div class="w-1/4 border mx-4 hover:shadow-2xl transform hover:scale-105  motion-reduce:transform-none ">
+            <img src="/assets/Exercise.jpg" alt="">
+            <div class="py-4 px-2">
+              <h4 class="py-2 pl-4 text-blue-700 text-md">Diagnostics</h4>
+              <h1 class="text-grey-900 text-xl font-semibold mt-4  px-4 cursor-pointer hover:text-yellow-500 ">Exercise is really good for overall health</h1>
+              <h4 class="py-2 pl-4 text-gray-900 text-md mt-2"><i class="icon-art fas fa-calendar-alt mr-2"></i>Jan/08/2020</h4>
+              <!-- <button class="border-2 border-yellow-500 rounded-xl  py-2 px-6 ml-24 my-8 text-grey-50 bg-yellow-500">Read More</button> -->
+            </div>
+          </div>
+
+        </div>
+          <button class="text-white text-xl rounded-xl  py-4  px-10 my-8 text-grey-50 bg-yellow-500 shadow-xl transform hover:scale-105  motion-reduce:transform-none  hover:bg-gray-900">Read More</button>
+    </div>
+</div>
+<footer-component></footer-component>
+<!--FOOTER-->
+
+</body>
+
+</html>

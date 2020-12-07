@@ -1,0 +1,35 @@
+.hero-img {
+  background-image: url("/assets/nurse.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img-doc {
+  background-image: url("/assets/doctors.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-footer {
+  color: #f59e0b;
+}
+
+.icon-art {
+  color: #111827;
+}
+
+/*CONTACT US PAGES*/
+
+.contct-bg {
+  background-image: url("/assets/dark_wood.png");
+}
+
+/*HOSPITALS PAGES*/
+/* .hospitals {
+  background-image: url("/assets/hospital.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
