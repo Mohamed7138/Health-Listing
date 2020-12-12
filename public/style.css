@@ -20,6 +20,10 @@
   color: #111827;
 }
 
+.box {
+  display: none;
+}
+
 /*CONTACT US PAGES*/
 
 .contct-bg {
